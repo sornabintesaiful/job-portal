@@ -1,17 +1,16 @@
 import React from 'react';
-// import icons8 from '../../assets/icons8-jobs-256.png'
-// import icons8 from '../../assets/'
+import logo from '../../assets/jobs-logo.png'
 
 const Footer = () => {
   return (
     <div>
       <footer className="footer bg-base-200 text-base-content p-10">
         <aside>
-          {/* {icons8} */}
+          <img src={logo} alt="" />
           <p>
-            ACME Industries Ltd.
+           Job Portal Ltd.
             <br />
-            Providing reliable tech since 1992
+            Providing reliable Job since 1992
           </p>
         </aside>
         <nav>
